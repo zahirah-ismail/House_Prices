@@ -1,0 +1,10 @@
+
+train <- read.csv(file = "train.csv", stringsAsFactors = FALSE,header=TRUE)
+
+#Exploring raw data
+names(train)
+summary(train)
+head(train)
+str(train)
+
+
